@@ -19,3 +19,4 @@ end
 # class Person
 # end
 
+Awesome = Class.new
