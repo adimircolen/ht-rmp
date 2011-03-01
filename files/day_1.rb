@@ -20,3 +20,17 @@ end
 # end
 
 Awesome = Class.new
+
+def new_class
+  Class.new(Person)
+end
+
+def new_method(instance)
+  #eu queria usar define_method junto com o instance_eval
+  # pra ficar mais claro o codigo tem como ?
+  instance.instance_eval do
+    def hello
+      "Hello from HOWTO instance"
+    end
+  end
+end
