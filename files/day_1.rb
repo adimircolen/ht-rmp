@@ -1,5 +1,5 @@
 class Object
-  singleton_class
+  # singleton_class
   def metaclass
     singleton_class
   end
